@@ -1,0 +1,116 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenedores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light"> <!-- fixed-bottom -->
+        <div class="container-xxl">
+            <a href="introduccion" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    eSuperMarket
+                </span>
+            </a>
+            <!-- el button es para pantallas pequeñas -->
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#nav-principal"
+            aria-controls="nav-principal" aria-expanded="false"
+            aria-label="Navegación toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="nav-principal">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#acerca" class="nav-link">Acerca de la computadora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#comentarios" class="nav-link">Mira lo que comentan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contáctanos</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#precios" class="nav-link">Planes de pago</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#precios" class="btn btn-primary">Planes de pago</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- secciones -->
+    <section id="introduccion">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Atún Van Camp's</div>
+                        <div class="display-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#precios" class="btn btn-secondary btn-lg">Comprar</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img src="/recursos/imagenes/comp03.jpeg" alt="foto de atun sabroso" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="precios" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Planes de pago</h2>
+                <p class="lead text-muted">Elija un plan de pago cómodo</p>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Económico</h4>
+                            <p class="lead card-subtitle">Con sistema GNU/Linux</p>
+                            <p class="display-5 my-4 text-primary fw-bold">Bs. 800</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Viene con 8GB de RAM, disco mecánico de 500GB, gráficos integrados y procesador i5 de 1ra generación.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-4">
+                    <div class="card border-2 border-primary">
+                        <div class="card-header text-center text-primary">Más popular</div>
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Estándar</h4>
+                            <p class="lead card-subtitle">Con sistema Windows 10</p>
+                            <p class="display-5 my-4 text-primary fw-bold">Bs. 1800</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Viene con 8GB de RAM, disco sólido de 250GB, gráficos integrados y procesador i5 de 1ra generación.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Pro</h4>
+                            <p class="lead card-subtitle">Con sistema Windows 11</p>
+                            <p class="display-5 my-4 text-primary fw-bold">Bs. 3800</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Viene con 16GB de RAM, disco sólido de 500GB, gráficos dedicados y procesador i7 de 5ta generación.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
