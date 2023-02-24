@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contenedores</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light"> <!-- fixed-bottom -->
         <div class="container-xxl">
             <a href="introduccion" class="navbar-brand">
                 <span class="fw-bold text-secondary">
-                    eSuperMarket
+                    <i class="bi bi-pc-display"></i>
+                    eComputerMarket
                 </span>
             </a>
             <!-- el button es para pantallas pequeñas -->
@@ -49,7 +51,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-5 text-center text-md-start">
                     <h1>
-                        <div class="display-2">Atún Van Camp's</div>
+                        <div class="display-2">Laptop XM-09 HP</div>
                         <div class="display-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</div>
                     </h1>
                     <p class="lead my-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -64,7 +66,7 @@
     <section id="precios" class="bg-light mt-5">
         <div class="container-lg">
             <div class="text-center">
-                <h2>Planes de pago</h2>
+                <h2>Planes de pago <i class="bi bi-coin"></i></h2>
                 <p class="lead text-muted">Elija un plan de pago cómodo</p>
             </div>
             <div class="row my-5 align-items-center justify-content-center">
@@ -107,6 +109,113 @@
                             <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Listas agrupadas (list groups) -->
+    <section id="comentarios" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Comentarios sobre este producto</h2>
+                <p class="lead">Las personas opinan sobre esta computadora</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-md-10 col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Compra sin arrepentimiento</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam impedit dignissimos! Expedita voluptatem rerum natus accusamus distinctio hic possimus.</p>
+                            <small>Comentario por Pepe</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">Recomendado</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam impedit dignissimos! Expedita voluptatem rerum natus accusamus distinctio hic possimus.</p>
+                            <small>Comentario por Pepe</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">Podría mejorar</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam impedit dignissimos! Expedita voluptatem rerum natus accusamus distinctio hic possimus.</p>
+                            <small>Comentario por Ana</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">No habren puntualmente</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam impedit dignissimos! Expedita voluptatem rerum natus accusamus distinctio hic possimus.</p>
+                            <small>Comentario por Sofía</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">Genial</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam impedit dignissimos! Expedita voluptatem rerum natus accusamus distinctio hic possimus.</p>
+                            <small>Comentario por Carlos</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Contáctate con nosotros</h2>
+                <p class="lead">¿Tienes alguna consulta? Llena el formulario para contactarte con nosotros!</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="#">
+                        <label for="email" class="form-label">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ej. abc@gmail.com">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ej. Pepe">
+                        <label for="asunto" class="form-label">¿Cuál es tu duda?</label>
+                        <select id="asunto" class="form-select">
+                            <option value="descripcion">Sobre la descripción de un poroducto</option>
+                            <option value="precios">Sobre el precio de un producto</option>
+                            <option value="otro">Otra consulta</option>
+                        </select>
+                        <div class="form-floating mb-4">
+                            <textarea id="consulta" style="height:150px" class="form-control"></textarea>
+                            <label for="consulta">Deja acá tu consulta...</label>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
