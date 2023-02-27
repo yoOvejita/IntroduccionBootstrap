@@ -56,6 +56,8 @@
                     </h1>
                     <p class="lead my-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     <a href="#precios" class="btn btn-secondary btn-lg">Comprar</a>
+                    <a href="#barralateral" class="d-block mt-3" data-bs-toggle="offcanvas"
+                       role="button" aria-controls="sidebar">Nuestras otras laptops</a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <span class="mis_tooltips" data-bs-placement="top" title="Laptop marca HP">
@@ -348,12 +350,43 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-
+                    <h5 class="modal-title" id="modal-titulo">Suscríbete a nuestro srvicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body">
-                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis eius exercitationem nihil. Suscipit, praesentium.</p>
+                    <label for="modal-correo" class="form-label">Su correo electrónico</label>
+                    <input type="email" id="modal-correo" class="form-control" placeholder="Ej. abc@blabla.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Enviar</button>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Offcanvas -->
+    <div id="barralateral" class="offcanvas offcanvas-start" tabindex="-1"
+         aria-labelledby="label-barralateral">
+        <div class="offcanvas-header">
+            <h5 id="label-barralateral" class="offcanvas-title">Nuestras otras laptops</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, architecto!</p>
+
+            <div class="dropdown mt-2">
+                <button id="dropdown-laptops" class="btn btn-secondary dropdown-toggle"
+                        type="button" data-bs-toggle="dropdown">Elija una laptop</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-laptops">
+                    <li><a href="#" class="dropdown-item">Laptop Lenovo</a></li>
+                    <li><a href="#" class="dropdown-item">Laptop MacBookPro</a></li>
+                    <li><a href="#" class="dropdown-item">Laptop VAIO</a></li>
+                </ul>
+            </div>
+
+            <img src="/recursos/imagenes/atun.jpg" alt="atun para pruebas" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente eos autem nihil qui ducimus. Non quod iste dolorem natus consectetur.</p>
         </div>
     </div>
 
